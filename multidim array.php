@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <body>
@@ -21,4 +22,29 @@ for ($row = 0; $row < 4; $row++) {
 ?>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$cars = array (
+  array("Volvo",22,18),
+  array("BMW",15,13),
+  array("Saab",5,2),
+  array("Land Rover",17,15)
+);
+    
+for ($row = 0; $row < 4; $row++) {
+  echo "<p><b>Row number $row</b></p>";
+  echo "<ul>";
+  for ($col = 0; $col < 3; $col++) {
+    echo "<li>".$cars[$row][$col]."</li>";
+  }
+  echo "</ul>";
+}
+?>
+
+</body>
+>>>>>>> 027e210bca7436f97dd9953515a86816228cc24a
 </html>
